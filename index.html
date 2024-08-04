@@ -19,17 +19,40 @@
             <button class="add-book-btn">+ Add book</button>
         </div>
         <section class="main-section">
-            <div class="book-card">
+            <!-- <div class="book-card">
                 <p class="book-name">Chamber of Secrets</p>
                 <p class="book-author">J.K Rowling</p>
                 <p class="book-pages">213 pages</p>
                 <button class="book-status">Read</button>
                 <button class="book-remove">Remove</button>
-            </div>
+            </div> -->
         </section>
+
+        <div id="dialog" class="dialog-box">
+            <div class="dialog-container">
+                <h2>Add new book</h2>
+                <form id="infoForm">
+                    <input type="text" id="title" name="title" required placeholder="Title">
+                    <input type="text" id="author" name="author" required placeholder="Author">
+                    <input type="number" id="pages" name="pages" required placeholder="Pages">
+                    <div>
+                        <label for="read">Have you read it?</label>
+                        <input type="checkbox" id="read" name="read">
+                    </div>
+                    <button class="close-dialog">Close</button>
+                </form>
+            </div>
+        </div>
+
 
         <footer>Copyright &#169; 2024 C.M.W</footer>
     </div>
+
+
+
+
+
+
 </body>
 
 </html>
